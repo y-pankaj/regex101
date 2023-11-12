@@ -28,11 +28,11 @@ $1
 ## Task 9: Match an E-Mail
 
 
-## Task 10: Followed by #
+## Task 10: Followed by \#
 /(.)(?=#)/g
 
 ## Task 11: Validate floating point numbers
-
+^[+-]?((\d+[\.\,]?\d*)|(\d*[\.\,]?\d+))([eE][+-]?\d+)?$
 
 ## Task 12: Match any number between 1-100
 /(?:^|[\s+])(?:\d{1,2}|100)\b/g
